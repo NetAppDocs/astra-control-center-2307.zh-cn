@@ -3109,7 +3109,6 @@ CRD是集群范围的对象、安装它们可能会影响集群的其他部分�
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 社区</block>
   <block id="874d8a5301794a9ca2aba132ac2460f3" category="sidebar">Kubernetes Hub</block>
   <block id="213686afc3803be7caa09348765467fe" category="sidebar">如何获取帮助</block>
-  <block id="0a560904c58e3cede88c521d796e1617" category="sidebar">Astra 控制中心文档</block>
   <block id="93168a8084b3e838d2932c4734bd234e" category="sidebar">早期版本</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">入门</block>
   <block id="6bdc7c13872089b240b2d2e134bf8244" category="sidebar">配置外部证书管理器</block>
@@ -3128,4 +3127,5 @@ CRD是集群范围的对象、安装它们可能会影响集群的其他部分�
   <block id="0460583622f03a52d7693094d6fa2452" category="sidebar">概念</block>
   <block id="8d85c59d57ad2cafad4f894413219af0" category="sidebar">存储类和 PV 大小</block>
   <block id="ae5601e1a5453d0b5924098584b9c3f2" category="sidebar">此版本的 Astra 控制中心中的新增功能</block>
+  <block id="6864eb9fc45cd6c1219a8562ce1cbe18" category="sidebar">Astra Control Center 23.07文档</block>
 </blocks>
