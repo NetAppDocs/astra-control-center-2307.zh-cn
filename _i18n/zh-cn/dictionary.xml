@@ -190,7 +190,6 @@
   <block id="90d397f2aa31c2e6d9f5dfda5d12adca" category="paragraph">Astra 控制中心在您自己的私有云中本地运行。</block>
   <block id="95936e8fb1e1f6bf4c0671f4ccc84fe7" category="paragraph">Astra控制中心支持Kubnetes集群、其中包含基于Astra三端的存储类以及ONTAP 9.5及更高版本的存储后端。</block>
   <block id="51269e2584d26b04961877ec77db6da7" category="paragraph">在云互联环境中， Astra 控制中心使用 Cloud Insights 提供高级监控和遥测功能。如果没有 Cloud Insights 连接，则 Astra 控制中心可提供有限的（ 7 天的指标）监控和遥测功能，并通过开放式指标端点导出到 Kubernetes 原生监控工具（例如 Prometheus 和 Grafana ）。</block>
-  <block id="ea2708b459fc0cad6936ec216bd9405e" category="paragraph">Astra 控制中心完全集成到 AutoSupport 和 Active IQ 生态系统中，可为用户和 NetApp 支持提供故障排除和使用信息。</block>
   <block id="e4a6d61b6602f5e6d6468645b096f45e" category="paragraph">您可以使用90天嵌入式评估许可证试用Astra Control Center。在评估Astra Control Center时、您可以通过电子邮件和社区选项获得支持。此外，您还可以从产品支持信息板访问知识库文章和文档。</block>
   <block id="b4851e92b19af0c5c82447fc0937709d" category="inline-link">要求</block>
   <block id="ebd65e27e034512530c808d2d0aa364d" category="paragraph">要安装和使用 Astra 控制中心，您需要满足特定的要求<block ref="0a14e0fc52cf8d6c6274f9c6e777d67d" category="inline-link-rx"></block>。</block>
@@ -980,7 +979,6 @@ Asta三项功能会在导入和发现过程中自动安装。</block>
 注意：请勿使用<block ref="dbd7790bcd23fde7607101ef6a633779" prefix=" " category="inline-code"></block> 或<block ref="f8eae6750519389e078e1eb1bcb3d708" prefix=" " category="inline-code"></block> 地址中。复制此 FQDN 以在中使用 <block ref="39c8566ec35b62823c898c5e38a4b78c" category="inline-xref-macro-rx"></block>。</block>
   <block id="a35d697fca562fcd8adcc6a07880b3d5" category="cell"><block ref="51c3153f8b9ad8f3a27b28d6c8f95aab" prefix="" category="inline-code"></block></block>
   <block id="16655bd6caa78814980ce90854a07356" category="example-title">&lt;code&gt;autoSupport&lt;/code&gt;</block>
-  <block id="7548d8cfdbba865da930704f30a7542f" category="paragraph">您在本节中的选择将决定您是否要参与NetApp主动支持应用程序NetApp Active IQ 以及数据的发送位置。需要互联网连接(端口442)、所有支持数据均会匿名化。</block>
   <block id="ad8783089f828b927473fb61d51940ec" category="cell">使用 ...</block>
   <block id="60d9e21a93c21f0d9ec8e72e12270054" category="cell"><block ref="774a4ec4adf9dd65264c77b3b87833b7" prefix="" category="inline-code"></block></block>
   <block id="24b6133a8f6f0866838539b9ca41cfa7" category="cell">两者之一<block ref="ff7af27948b380bff5d583359796d3c8" prefix=" " category="inline-code"></block> 或<block ref="572d4e421e5e6b9bc11d815e8a027112" prefix=" " category="inline-code"></block> 必须选择字段</block>
@@ -2729,7 +2727,6 @@ CRD是集群范围的对象、安装它们可能会影响集群的其他部分�
   <block id="35f3a2f7a0f2c01d03afedb95ece66ab" category="inline-link">NetApp 身份验证文件上传（需要登录）</block>
   <block id="1c2989d4329c8aeec5e01506816fb04e" category="list-text">使用 ...<block ref="4b0bc63f683ccbf4dcf0ba2a6a1b561f" category="inline-link-rx"></block>。</block>
   <block id="94bcffc8ff8a109a8267202d2aaa5526" category="list-text">将捆绑包直接附加到 NSS 上的案例。</block>
-  <block id="4345f2150d39e38a6a11ee7ee57bed28" category="list-text">使用 NetApp Active IQ 。</block>
   <block id="51d249216b03414f10b242b851af7951" category="doc">Astra Control 组件</block>
   <block id="5ddd50ee81b614308861ff77d7830f09" category="inline-image-macro">描述Astra Control架构及其组件的概念图像</block>
   <block id="9a5af8d21a89c12b2cbe1b8eef81601d" category="paragraph"><block ref="9a5af8d21a89c12b2cbe1b8eef81601d" category="inline-image-macro-rx" type="image"></block></block>
@@ -3128,4 +3125,7 @@ CRD是集群范围的对象、安装它们可能会影响集群的其他部分�
   <block id="8d85c59d57ad2cafad4f894413219af0" category="sidebar">存储类和 PV 大小</block>
   <block id="ae5601e1a5453d0b5924098584b9c3f2" category="sidebar">此版本的 Astra 控制中心中的新增功能</block>
   <block id="6864eb9fc45cd6c1219a8562ce1cbe18" category="sidebar">Astra Control Center 23.07文档</block>
+  <block id="a9cf730f8ab04a5b52f1d19c74c1483c" category="paragraph">Astra控制中心完全集成到AutoSupport和Active IQ数字顾问(也称为数字顾问)生态系统中、可为用户和NetApp支持提供故障排除和使用信息。</block>
+  <block id="d89b38e0f587f8fa359a431abd35bb40" category="paragraph">您在本节中所做的选择将决定您是否参与NetApp的主动支持应用程序Digital Advisor以及数据的发送位置。需要互联网连接(端口442)、所有支持数据均会匿名化。</block>
+  <block id="3cf9bc07c0ae31018d3336b8f32de6c8" category="list-text">使用Digital Advisor。</block>
 </blocks>
